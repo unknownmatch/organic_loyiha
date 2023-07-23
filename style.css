@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none;
+  }
+  .list {
+    display: flex;
+    /* gap:40px ; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navRight {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 25px;
+  }
+  .btnNav {
+    width: 160px;
+    height: 40px;
+      background-color: #09A66D;
+    border-radius: 8px;
+    color: white;
+    border: none;
+  }
+  .leftNav{
+      display: flex;
+      align-items: center;
+      /* gap: 155px; */
+      justify-content: space-between;
+  }
